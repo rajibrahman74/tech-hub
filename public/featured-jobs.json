@@ -1,0 +1,114 @@
+[
+    {
+      "id": 0,
+      "company_logo": "../src/assets/Logo/google-1-1 1.png",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Remote",
+      "location": "Dhaka, Bangladesh",
+      "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+      "fulltime_or_parttime": "Fulltime",
+      "salary": "100K - 150K",
+      "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+      "educational_requirements": "Bachelor degree to complete any reputational university.",
+      "experiences": "2-3 Years in this field.",
+      "contact_information": {
+        "phone": "01750-00 00 00",
+        "email": "info@gmail.com"
+      }
+    },
+    {
+        "id": 1,
+        "company_logo": "../src/assets/Logo/netflix-4 1.png",
+        "job_title": "Technical Database Engineer",
+        "company_name": "Google LLC",
+        "remote_or_onsite": "Remote",
+        "location": "Dhaka, Bangladesh",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "100K - 150K",
+        "job_description": "Netflix is seeking a Product Manager to join our team. You will be responsible for driving the development and execution of our product roadmap for our streaming platform.",
+        "job_responsibility": "- Develop and execute the product roadmap for our global streaming platform\n- Collaborate with cross-functional teams to define and execute product initiatives\n- Conduct user research and analyze user feedback to inform product decisions\n- Manage the product development process from ideation to launch",
+        "educational_requirements": "Bachelor's or Master's degree in Business Administration or related field",
+        "experiences": "Minimum of 5 years of experience in product management, preferably in the technology or entertainment industry",
+        "contact_information": {
+          "phone": "(555) 555-5555",
+          "email": "jobs@acmeinc.com"
+      }
+    },
+    {
+        "id": 2,
+        "company_logo": "../src/assets/Logo/tesla-9 1.png",
+        "job_title": "Software Engineer",
+        "company_name": "Tesla",
+        "remote_or_onsite": "Onsite",
+        "location": "Dhaka, Bangladesh",
+        "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh",
+        "fulltime_or_parttime": "Fulltime",
+        "salary": "100K - 150K",
+        "job_description": "Tesla is seeking a Software Engineer to join our Autopilot team. You will be responsible for developing and testing software for our autonomous driving system.",
+        "job_responsibility": "- Design, develop, and test software for our Autopilot system\n- Collaborate with cross-functional teams to ensure system integration and performance\n- Participate in code reviews and provide feedback to other developers\n- Contribute to the development of software tools and processes for the Autopilot team",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "Minimum of 3 years of experience in software development, preferably in the automotive or robotics industry",
+        "contact_information": {
+          "phone": "(555) 555-5555",
+          "email": "jobs@tesla.com"
+        }
+    },
+    {
+        "id": 3,
+        "company_logo": "../src/assets/Logo/facebook.png",
+        "job_title": "Software Engineer - AI/ML",
+        "company_name": "Facebook",
+        "remote_or_onsite": "Remote",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "100K - 150K",
+        "job_description": "Facebook is seeking a Software Engineer to join our AI/ML team. You will be responsible for developing and deploying cutting-edge AI/ML models and algorithms that drive key product features and business outcomes.",
+        "job_responsibility": "- Design, develop, and deploy AI/ML models and algorithms that drive key product features and business outcomes\n- Collaborate with cross-functional teams to integrate AI/ML into product features\n- Conduct experiments to test the effectiveness of AI/ML models and algorithms\n- Contribute to the development of software tools and processes for the AI/ML team",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "Minimum of 3 years of experience in software development, with a focus on AI/ML",
+        "contact_information": {
+          "phone": "(555) 555-5555",
+          "email": "jobs@facebook.com"
+        }
+      },
+    {
+        "id": 4,
+        "company_logo": "../src/assets/Logo/instagram.png",
+        "job_title": "Product Designer",
+        "company_name": "Instagram",
+        "remote_or_onsite": "Remote",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "130k - 180k",
+        "job_description": "Instagram is seeking a Product Designer to join our team. You will be responsible for designing and delivering engaging and intuitive experiences for our users across our mobile and web platforms.",
+        "job_responsibility": "- Design and deliver engaging and intuitive experiences for our users across our mobile and web platforms\n- Collaborate with cross-functional teams to understand user needs and business objectives\n- Develop and maintain design guidelines and best practices for the Instagram product\n- Conduct user research and testing to validate and iterate on design solutions",
+        "educational_requirements": "Bachelor's or Master's degree in Design or related field",
+        "experiences": "Minimum of 3 years of experience in product design, with a focus on mobile and web platforms",
+        "contact_information": {
+          "phone": "(555) 555-5555",
+          "email": "jobs@instagram.com"
+        }
+      },
+      {
+        "id": 5,
+        "company_logo": "../src/assets/Logo/microsoft.png",
+        "job_title": "Senior Software Engineer - Azure",
+        "company_name": "Microsoft",
+        "remote_or_onsite": "Remote",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "150k - 200k",
+        "job_description": "Microsoft is looking for a Senior Software Engineer to join our Azure team. You will be responsible for developing and maintaining cloud-based services and applications that power the Microsoft Azure platform.",
+        "job_responsibility": "- Design, develop, and maintain cloud-based services and applications that power the Microsoft Azure platform\n- Collaborate with cross-functional teams to build new features and improve existing ones\n- Contribute to the development of software tools and processes for the Azure team\n- Stay up-to-date with the latest technologies and trends in cloud computing",
+        "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+        "experiences": "Minimum of 5 years of experience in software development, with a focus on cloud computing and distributed systems",
+        "contact_information": {
+          "phone": "(555) 555-5555",
+          "email": "jobs@microsoft.com"
+        }
+      }
+  
+  ]
