@@ -12,7 +12,7 @@ const HeroSection = () => {
           <br />
           <span className="text-[#7E90FE]">Dream Job</span>
         </h1>
-        <p className="text[#7E90FE;] text-[18px] m-0">
+        <p className="text[#7E90FE;] text-[17px] m-0">
           Explore thousands of job opportunities with all the information you
           need. Its your future. Come find it. Manage all your job application
           from start to finish.
