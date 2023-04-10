@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        paht: "tatistics",
+        path: "statistics",
         element: <Statistics/>
       },
       {
