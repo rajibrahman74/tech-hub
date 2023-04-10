@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar bg-base-100 max-w-7xl mx-auto flex justify-between items-center px-4 sticky top-0">
+    <nav className="navbar bg-base-100 max-w-7xl mx-auto flex justify-between items-center px-4 sticky top-0 z-50">
       <div className="">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@ const Header = () => {
           >
             <li>
               <Link
-                className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+                className="text-[#757575] font-semibold hover:text-[#7E90FE]"
                 to="/"
               >
                 Home
@@ -36,7 +36,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+                className="text-[#757575] font-semibold hover:text-[#7E90FE]"
                 to="/statistics"
               >
                 Statistics
@@ -44,7 +44,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+                className="text-[#757575] font-semibold hover:text-[#7E90FE]"
                 to="/appliedJobs"
               >
                 AppliedJobs
@@ -52,7 +52,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+                className="text-[#757575] font-semibold hover:text-[#7E90FE]"
                 to="/blog"
               >
                 Blog
@@ -60,7 +60,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="text-2xl text-[#1A1919;] font-extrabold">
+        <Link to="/" className="text-2xl text-[#1A1919] font-extrabold">
           TechHub
         </Link>
       </div>
@@ -68,7 +68,7 @@ const Header = () => {
         <ul className="flex items-center gap-6 px-1">
           <li>
             <Link
-              className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+              className="text-[#757575] font-semibold hover:text-[#7E90FE]"
               to="/"
             >
               Home
@@ -76,7 +76,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+              className="text-[#757575] font-semibold hover:text-[#7E90FE]"
               to="/statistics"
             >
               Statistics
@@ -84,7 +84,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+              className="text-[#757575] font-semibold hover:text-[#7E90FE]"
               to="/appliedJobs"
             >
               AppliedJobs
@@ -92,7 +92,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              className="text-[#757575;] font-semibold hover:text-[#7E90FE]"
+              className="text-[#757575] font-semibold hover:text-[#7E90FE]"
               to="/blog"
             >
               Blog
