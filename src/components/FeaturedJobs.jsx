@@ -15,7 +15,7 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="mt-8 flex flex-wrap gap-6 mx-auto">
-        {featuredJobs.map((fj) => (
+      {featuredJobs.map((fj) => (
           <FeaturedJobsDetails key={fj.id} fj={fj} />
         ))}
       </div>

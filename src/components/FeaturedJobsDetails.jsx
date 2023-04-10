@@ -1,9 +1,16 @@
 import React from "react";
 import dollarIcon from "../assets/Icons/Frame.png";
 import locationIcon from "../assets/Icons/Frame-4.png";
+import { useNavigate } from "react-router-dom";
 
 const FeaturedJobsDetails = ({ fj }) => {
-  console.log(fj);
+  const navigate = useNavigate();
+
+  // Function to handle "View Details" button click
+  const handleViewDetailsClick = () => {
+    navigate(`/jobdetails/${fj.id}`);
+  };
+
   const {
     company_logo,
     company_name,
@@ -38,7 +45,10 @@ const FeaturedJobsDetails = ({ fj }) => {
           </p>
         </span>
       </div>
-      <button className="px-4 py-2.5 flex justify-center items-center font-bold text-base rounded-[4px] text-white bg-gradient-to-r from-blue-400 to-purple-600 absolute bottom-0 mb-5">
+      <button
+        className="px-4 py-2.5 flex justify-center items-center font-bold text-base rounded-[4px] text-white bg-gradient-to-r from-blue-400 to-purple-600 absolute bottom-0 mb-5"
+        onClick={handleViewDetailsClick}
+      >
         View Details
       </button>
     </div>
