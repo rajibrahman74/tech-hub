@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar bg-base-100 max-w-7xl mx-auto flex justify-between items-center">
+    <nav className="navbar bg-base-100 max-w-7xl mx-auto flex justify-between items-center px-4 sticky top-0">
       <div className="">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
