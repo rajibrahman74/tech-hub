@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLoaderData } from "react-router-dom";
-import FeaturedJobsDetails from "../featuredJobsDetails/featuredJobsDetails";
+import FeaturedJobsDetails from "./FeaturedJobsDetails";
 
 const FeaturedJobs = () => {
   const featuredJobs = useLoaderData();

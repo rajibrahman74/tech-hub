@@ -1,6 +1,6 @@
 import React from "react";
-import dollarIcon from "../../assets/Icons/Frame.png";
-import locationIcon from "../../assets/Icons/Frame-4.png";
+import dollarIcon from "../assets/Icons/Frame.png";
+import locationIcon from "../assets/Icons/Frame-4.png";
 
 const FeaturedJobsDetails = ({ fj }) => {
   console.log(fj);

@@ -2,11 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Main from "./components/Layout/Main";
-import Home from "./components/Home/Home";
-import Statistics from "./components/Statistics/Statistics";
-import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
-import Blog from "./components/Blog/Blog";
+import AppliedJobs from "./components/AppliedJobs";
+import Statistics from "./components/Statistics";
+import Blog from "./components/Blog";
+import Home from "./components/Home";
+import Main from "./components/Main";
 const router = createBrowserRouter([
   {
     path: "/",
