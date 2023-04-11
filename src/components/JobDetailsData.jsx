@@ -4,6 +4,7 @@ import JobTitle from "../assets/Icons/Frame-1.png";
 import Phone from "../assets/Icons/Frame-2.png";
 import Email from "../assets/Icons/Frame-3.png";
 import Address from "../assets/Icons/Frame-4.png";
+import { Link } from "react-router-dom";
 
 const JobDetailsData = ({ data }) => {
   console.log(data);
@@ -84,9 +85,11 @@ const JobDetailsData = ({ data }) => {
             </p>
           </span>
         </div>
-        <button className="w-[425px] h-[65px] font-bold text-white rounded-lg bg-gradient-to-r from-blue-400 to-purple-600">
-          Apply Now
-        </button>
+        <Link to="/appliedjobs">
+          <button className="w-[425px] h-[65px] font-bold text-white rounded-lg bg-gradient-to-r from-blue-400 to-purple-600">
+            Apply Now
+          </button>
+        </Link>
       </div>
     </div>
   );
