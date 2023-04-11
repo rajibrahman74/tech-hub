@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import bgOne from "../assets/All Images/Vector.png";
 import bgTwo from "../assets/All Images/Vector-1.png";
 
 const AppliedJobs = () => {
+  const [jobs, setJobs] = useState([]);
+
+  useEffect(() => {
+    const jobsData = JSON.parse(localStorage.getItem("jobs")) || [];
+    setJobs(jobsData);
+  }, []);
+
   return (
     <section>
       <style>
@@ -19,7 +26,11 @@ const AppliedJobs = () => {
         <h1 className="text-[#1A1919] text-3xl font-extrabold">Applied Jobs</h1>
         <img className="absolute left-0 top-[151px]" src={bgOne} alt="" />
       </div>
-      {/* Pass the dynamic value here */}
+      <div>
+        {jobs.map((job) => (
+          <p>{job.job_title}</p>
+        ))}
+      </div>
     </section>
   );
 };

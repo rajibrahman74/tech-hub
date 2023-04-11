@@ -6,7 +6,6 @@ import Email from "../assets/Icons/Frame-3.png";
 import Address from "../assets/Icons/Frame-4.png";
 
 const JobDetailsData = ({ data }) => {
-  console.log(data);
   const {
     job_description,
     job_responsibility,
@@ -17,6 +16,18 @@ const JobDetailsData = ({ data }) => {
     address,
     contact_information: { phone, email },
   } = data;
+
+  const handleAddToDb = () => {
+    const jobs = JSON.parse(localStorage.getItem("jobs")) || [];
+
+    // Check if the job already exists in localStorage
+    const jobExists = jobs.some((job) => job.id === data.id);
+
+    if (!jobExists) {
+      jobs.push(data);
+      localStorage.setItem("jobs", JSON.stringify(jobs));
+    }
+  };
 
   return (
     <div className="my-32 flex justify-center gap-6 md:flex-row flex-col items-center md:items-start max-w-7xl mx-auto px-4">
@@ -84,9 +95,12 @@ const JobDetailsData = ({ data }) => {
             </p>
           </span>
         </div>
-          <button className="w-[425px] h-[65px] font-bold text-white rounded-lg bg-gradient-to-r from-blue-400 to-purple-600">
-            Apply Now
-          </button>
+        <button
+          onClick={handleAddToDb}
+          className="w-[425px] h-[65px] font-bold text-white rounded-lg bg-gradient-to-r from-blue-400 to-purple-600"
+        >
+          Apply Now
+        </button>
       </div>
     </div>
   );
