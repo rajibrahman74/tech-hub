@@ -2,11 +2,20 @@ import { useLoaderData, useParams } from "react-router-dom";
 import JobDetailsData from "./JobDetailsData";
 import bgOne from "../assets/All Images/Vector.png";
 import bgTwo from "../assets/All Images/Vector-1.png";
+import { useState } from "react";
 
 const JobDetails = () => {
+  const [appliedjobs, setAppliedJobs] = useState([]);
+
   const { id } = useParams();
   const features = useLoaderData();
   const data = features.find((feature) => feature.id === parseInt(id));
+
+
+
+
+
+
 
   return (
     <section>
