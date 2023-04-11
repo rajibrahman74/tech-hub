@@ -1,20 +1,21 @@
-import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useState } from "react";
+import { useLoaderData, useNavigate } from "react-router-dom";
 import FeaturedJobsDetails from "./FeaturedJobsDetails";
 
 const FeaturedJobs = () => {
-  const [featuresDatas, setFeaturesDatas] = useState([]);
+  const [showAll, setShowAll] = useState(false);
+  const [numToShow, setNumToShow] = useState(4);
 
-  useEffect(() => {
-    fetch("featured-jobs.json")
-      .then((res) => res.json())
-      .then((data) => setFeaturesDatas(data));
-  }, []);
+  const featuresDatas = useLoaderData();
 
   const navigate = useNavigate();
-
   const handleViewDetails = (id) => {
     navigate(`/jobdetails/${id}`);
+  };
+
+  const handleShowBtn = () => {
+    setShowAll(true);
+    setNumToShow(featuresDatas.length);
   };
 
   return (
@@ -27,7 +28,7 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="mt-8 flex flex-wrap gap-6 mx-auto">
-        {featuresDatas.map((fj) => (
+        {featuresDatas.slice(0, numToShow).map((fj) => (
           <FeaturedJobsDetails
             key={fj.id}
             fj={fj}
@@ -35,13 +36,19 @@ const FeaturedJobs = () => {
           />
         ))}
       </div>
-      <span className="flex justify-center items-center mt-10 mb-32">
-        <button className="w-[145px] h-[55px] flex justify-center items-center font-bold text-[17px] rounded-[8px] text-white bg-gradient-to-r from-blue-400 to-purple-600">
-          <Link>See All Jobs</Link>
-        </button>
-      </span>
+      {!showAll && (
+        <span className="flex justify-center items-center mt-10 mb-32">
+          <button
+            className="w-[145px] h-[55px] flex justify-center items-center font-bold text-[17px] rounded-[8px] text-white bg-gradient-to-r from-blue-400 to-purple-600"
+            onClick={handleShowBtn}
+          >
+            See All Jobs
+          </button>
+        </span>
+      )}
     </section>
   );
 };
+
 
 export default FeaturedJobs;

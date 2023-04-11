@@ -2,9 +2,15 @@ import React from 'react';
 
 const JobDetailsData = ({data}) => {
     console.log(data);
+    const {job_description, job_responsibility, educational_requirements, experiences, salary, job_title, } = data;
     return (
         <div>
-            <h1>job details data</h1>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
         </div>
     );
 };

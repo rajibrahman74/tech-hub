@@ -16,10 +16,10 @@ const JobDetails = () => {
           src={bgTwo}
           alt=""
         />
-        <h1 className="text-[#1A1919] text-3xl font-bold">Job Details</h1>
+        <h1 className="text-[#1A1919] text-3xl font-extrabold">Job Details</h1>
         <img className="absolute left-0 top-32" src={bgOne} alt="" />
       </div>
-      <div>{<JobDetailsData data={data} />}</div>
+      <div className="my-32">{<JobDetailsData data={data} />}</div>
     </section>
   );
 };
