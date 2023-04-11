@@ -1,9 +1,21 @@
-import React from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import FeaturedJobsDetails from "./FeaturedJobsDetails";
 
 const FeaturedJobs = () => {
-  const featuredJobs = useLoaderData();
+  const [featuresDatas, setFeaturesDatas] = useState([]);
+
+  useEffect(() => {
+    fetch("featured-jobs.json")
+      .then((res) => res.json())
+      .then((data) => setFeaturesDatas(data));
+  }, []);
+
+  const navigate = useNavigate();
+
+  const handleViewDetails = (id) => {
+    navigate(`/jobdetails/${id}`);
+  };
 
   return (
     <section className="max-w-7xl mx-auto px-4">
@@ -15,8 +27,12 @@ const FeaturedJobs = () => {
         need. Its your future
       </p>
       <div className="mt-8 flex flex-wrap gap-6 mx-auto">
-      {featuredJobs.map((fj) => (
-          <FeaturedJobsDetails key={fj.id} fj={fj} />
+        {featuresDatas.map((fj) => (
+          <FeaturedJobsDetails
+            key={fj.id}
+            fj={fj}
+            handleViewDetails={handleViewDetails}
+          />
         ))}
       </div>
       <span className="flex justify-center items-center mt-10 mb-32">

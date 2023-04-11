@@ -7,21 +7,23 @@ import Statistics from "./components/Statistics";
 import Blog from "./components/Blog";
 import Home from "./components/Home";
 import Main from "./components/Main";
+import ErrorPage from "./components/ErrorPage";
 import JobDetails from "./components/JobDetails";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element: <Home />,
-        loader: () => fetch("featured-jobs.json"),
+        element: <Home />
       },
       {
         path: "/jobdetails/:id",
-        element: <JobDetails />,
-        loader: ({ params }) => fetch(`jobdetails-${params.id}.json`),
+        element: <JobDetails/>,
+        loader: ({ params }) =>
+          fetch("/featured-jobs.json").then((response) => response.json()),
       },
       {
         path: "statistics",
