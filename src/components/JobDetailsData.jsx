@@ -19,7 +19,7 @@ const JobDetailsData = ({ data }) => {
   } = data;
 
   return (
-    <section className="my-32 flex justify-center gap-6 md:flex-row flex-col items-center md:items-start max-w-7xl mx-auto px-4">
+    <div className="my-32 flex justify-center gap-6 md:flex-row flex-col items-center md:items-start max-w-7xl mx-auto px-4">
       <div className="flex flex-col gap-6 max-w-3/2">
         <p className="text-[#757575]">
           <span className="text-[#1A1919] font-bold">Job Description: </span>
@@ -40,7 +40,7 @@ const JobDetailsData = ({ data }) => {
           <p>{experiences}</p>
         </span>
       </div>
-      <div className="max-w-3/1 flex flex-col gap-6">
+      <div className="w-3/1 max-w-sm mx-auto flex flex-col gap-6">
         <div className="liner-gradient w-[424px] h-[461px] bg-green-200 rounded-lg py-7 pl-7">
           <h3 className="text-[#1A1919] font-bold text-xl pb-6">Job Details</h3>
           <div className="w-[350px] liner-gradient h-[1.5px] mx-auto mb-6"></div>
@@ -88,7 +88,7 @@ const JobDetailsData = ({ data }) => {
           Apply Now
         </button>
       </div>
-    </section>
+    </div>
   );
 };
 
