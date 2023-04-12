@@ -22,6 +22,7 @@ const data = [
   { name: "Assignment 6", score: 60, netMarks: 60 },
   { name: "Assignment 7", score: 60, netMarks: 60 },
   { name: "Assignment 8", score: 60, netMarks: 60 },
+  { name: "Assignment 9", score: 60, netMarks: 60 },
 ];
 
 class Statistic extends PureComponent {
