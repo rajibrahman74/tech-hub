@@ -1,9 +1,9 @@
 import React from "react";
-import Salary from "../assets/Icons/Frame.png";
-import JobTitle from "../assets/Icons/Frame-1.png";
-import Phone from "../assets/Icons/Frame-2.png";
-import Email from "../assets/Icons/Frame-3.png";
-import Address from "../assets/Icons/Frame-4.png";
+import Salary from "../../public/assets/Icons/Frame.png";
+import JobTitle from "../../public/assets/Icons/Frame-1.png";
+import Phone from "../../public/assets/Icons/Frame-2.png";
+import Email from "../../public/assets/Icons/Frame-3.png";
+import Address from "../../public/assets/Icons/Frame-4.png";
 
 const JobDetailsData = ({ data }) => {
   const {

@@ -1,6 +1,6 @@
 import React from "react";
-import Location from "../assets/Icons/Location Icon.png";
-import Salary from "../assets/Icons/Frame.png";
+import Location from "../../public/assets/Icons/Frame-4.png";
+import Salary from "../../public/assets/Icons/Frame.png";
 import { Link } from "react-router-dom";
 
 const AppliedJobsDetails = ({ job }) => {

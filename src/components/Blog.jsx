@@ -1,13 +1,13 @@
 import React from "react";
-import bgOne from "../assets/All Images/Vector.png";
-import bgTwo from "../assets/All Images/Vector-1.png";
-import ContextapiE1 from "../assets/Blog-example-img/contextapiE1.png";
-import Contextapi2 from "../assets/Blog-example-img/contexapiE2.png";
-import ContextapiE3 from "../assets/Blog-example-img/contextapiE3.png";
-import CustomehookE1 from "../assets/Blog-example-img/customehookE1.png";
-import CustomehookE2 from "../assets/Blog-example-img/customehookE2.png";
-import UserefE1 from "../assets/Blog-example-img/userefE1.png";
-import UsememoE from "../assets/Blog-example-img/usememoE.png";
+import bgOne from "../../public/assets/All Images/Vector.png";
+import bgTwo from "../../public/assets/All Images/Vector-1.png";
+import ContextapiE1 from "../../public/assets/Blog-example-img/contextapiE1.png";
+import ContextapiE2 from "../../public/assets/Blog-example-img/contextapiE2.png";
+import ContextapiE3 from "../../public/assets/Blog-example-img/contextapiE3.png";
+import CustomehookE1 from "../../public/assets/Blog-example-img/customehookE1.png";
+import CustomehookE2 from "../../public/assets/Blog-example-img/customehookE2.png";
+import UserefE1 from "../../public/assets/Blog-example-img/userefE1.png";
+import UsememoE from "../../public/assets/Blog-example-img/usememoE.png";
 
 const Blog = () => {
   return (
@@ -44,7 +44,7 @@ const Blog = () => {
                 <img className="rounded-md" src={ContextapiE1} alt="" />
               </span>
               <span>
-                <img className="rounded-md" src={Contextapi2} alt="" />
+                <img className="rounded-md" src={ContextapiE2} alt="" />
               </span>
               <span>
                 <img className="rounded-md" src={ContextapiE3} alt="" />

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import bgOne from "../assets/All Images/Vector.png";
-import bgTwo from "../assets/All Images/Vector-1.png";
+import bgOne from "../../public/assets/All Images/Vector.png";
+import bgTwo from "../../public/assets/All Images/Vector-1.png";
 import AppliedJobsDetails from "./AppliedJobsDetails";
 
 const AppliedJobs = () => {

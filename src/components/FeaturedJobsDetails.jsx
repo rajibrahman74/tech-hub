@@ -1,6 +1,6 @@
 import React from "react";
-import dollarIcon from "../assets/Icons/Frame.png";
-import locationIcon from "../assets/Icons/Frame-4.png";
+import dollarIcon from "../../public/assets/Icons/Frame.png";
+import locationIcon from "../../public/assets/Icons/Frame-4.png";
 import { Link } from "react-router-dom";
 
 const FeaturedJobsDetails = ({ fj, handleViewDetails }) => {
