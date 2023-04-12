@@ -1,7 +1,7 @@
 [
     {
       "id": 0,
-      "company_logo": "../src/assets/Logo/google-1-1 1.png",
+      "company_logo": "/src/assets/Logo/google-1-1 1.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
@@ -20,7 +20,7 @@
     },
     {
         "id": 1,
-        "company_logo": "../src/assets/Logo/netflix-4 1.png",
+        "company_logo": "/src/assets/Logo/netflix-4 1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Remote",
@@ -39,7 +39,7 @@
     },
     {
         "id": 2,
-        "company_logo": "../src/assets/Logo/tesla-9 1.png",
+        "company_logo": "/src/assets/Logo/tesla-9 1.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
@@ -58,7 +58,7 @@
     },
     {
         "id": 3,
-        "company_logo": "../src/assets/Logo/facebook.png",
+        "company_logo": "/src/assets/Logo/facebook.png",
         "job_title": "Software Engineer - AI/ML",
         "company_name": "Facebook",
         "remote_or_onsite": "Remote",
@@ -77,7 +77,7 @@
       },
     {
         "id": 4,
-        "company_logo": "../src/assets/Logo/instagram.png",
+        "company_logo": "/src/assets/Logo/instagram.png",
         "job_title": "Product Designer",
         "company_name": "Instagram",
         "remote_or_onsite": "Onsite",
@@ -96,7 +96,7 @@
       },
       {
         "id": 5,
-        "company_logo": "../src/assets/Logo/microsoft.png",
+        "company_logo": "/src/assets/Logo/microsoft.png",
         "job_title": "Senior Software Engineer - Azure",
         "company_name": "Microsoft",
         "remote_or_onsite": "Onsite",
