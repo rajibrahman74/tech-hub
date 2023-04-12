@@ -26,7 +26,6 @@ const Blog = () => {
         <h1 className="text-[#1A1919] text-3xl font-extrabold">Blogs</h1>
         <img className="absolute left-0 top-[151px]" src={bgOne} alt="" />
       </div>
-
       <div className="max-w-7xl mt-8 mb-12 mx-auto flex flex-col gap-16 px-4">
         <div className="p-5 shadow-md rounded-md flex flex-col gap-8">
           <p className="text-xl font-bold">
