@@ -37,7 +37,7 @@ const FeaturedJobs = () => {
         ))}
       </div>
       {!showAll && (
-        <span className="flex justify-center items-center mt-10 mb-32">
+        <span className="flex justify-center items-center mt-10">
           <button
             className="w-[145px] h-[55px] flex justify-center items-center font-bold text-[17px] rounded-[8px] text-white bg-gradient-to-r from-blue-400 to-purple-600"
             onClick={handleShowBtn}
