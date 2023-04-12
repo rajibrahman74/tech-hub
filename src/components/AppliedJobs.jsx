@@ -29,7 +29,7 @@ const AppliedJobs = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 mt-10">
-        <div className="flex justify-end">
+        <div className="flex justify-end mb-[70px]">
           <div class="relative inline-block bg-[#F4F4F4]">
             <select class="block appearance-none w-full px-4 py-2 pr-8 rounded shadow leading-tight focus:outline-none focus:shadow-outline cursor-pointer text[#474747] bg-[#F4F4F4] font-semibold">
               <option>Filter By</option>
