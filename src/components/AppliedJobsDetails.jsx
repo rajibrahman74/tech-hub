@@ -3,7 +3,6 @@ import Location from "../assets/Icons/Location Icon.png";
 import Salary from "../assets/Icons/Frame.png";
 
 const AppliedJobsDetails = ({ job }) => {
-  console.log(job);
   const {
     company_logo,
     job_title,
@@ -46,7 +45,7 @@ const AppliedJobsDetails = ({ job }) => {
             </span>
           </div>
         </div>
-        <button className="absolute right-0 mr-[47px] px-4 py-2.5 flex justify-center items-center font-bold text-base rounded-[4px] text-white bg-gradient-to-r from-blue-400 to-purple-600 ">
+        <button className="absolute right-0 mr-[47px] px-4 py-2.5 flex justify-center items-center font-bold text-base rounded text-white bg-gradient-to-r from-blue-400 to-purple-600 ">
           View Details
         </button>
       </div>
