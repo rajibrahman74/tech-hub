@@ -11,4 +11,4 @@
 
 ### Live link:
 
-### Hosted on netlify: [TechHub](https://www.linkedin.com/in/rajibrahman74/)
+### Hosted in netlify: [TechHub](https://www.linkedin.com/in/rajibrahman74/)
