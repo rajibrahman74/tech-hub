@@ -52,7 +52,7 @@ const AppliedJobs = () => {
                 }`}
                 onClick={handleOnsiteClick}
               >
-                Onsite
+                Show Onsite Jobs
               </button>
               <button
                 className={`bg-[#F4F4F4] px-2 py-1.5 border border-1 border-gray-300 rounded font-semibold text-[#474747] ${
@@ -60,7 +60,7 @@ const AppliedJobs = () => {
                 }`}
                 onClick={handleRemoteClick}
               >
-                Remote
+                Show Remote Jobs
               </button>
             </div>
           </div>

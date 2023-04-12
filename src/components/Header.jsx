@@ -61,8 +61,8 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <Link to="/" className="text-2xl text-[#1A1919] font-extrabold">
-            TechHub
+          <Link to="/">
+            <h3 className="text-2xl text-[#1A1919] font-extrabold">TechHub</h3>
           </Link>
         </div>
         <div className="hidden lg:flex">

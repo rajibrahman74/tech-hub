@@ -1,9 +1,11 @@
 import React from "react";
 import Location from "../assets/Icons/Location Icon.png";
 import Salary from "../assets/Icons/Frame.png";
+import { Link } from "react-router-dom";
 
 const AppliedJobsDetails = ({ job }) => {
   const {
+    id,
     company_logo,
     job_title,
     company_name,
@@ -45,9 +47,11 @@ const AppliedJobsDetails = ({ job }) => {
             </span>
           </div>
         </div>
-        <button className="absolute right-0 mr-[47px] px-4 py-2.5 flex justify-center items-center font-bold text-base rounded text-white bg-gradient-to-r from-blue-400 to-purple-600 ">
-          View Details
-        </button>
+        <Link to={`/jobdetails/${id}`}>
+          <button className="absolute right-0 mr-[47px] px-4 py-2.5 flex justify-center items-center font-bold text-base rounded text-white bg-gradient-to-r from-blue-400 to-purple-600 ">
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   );
