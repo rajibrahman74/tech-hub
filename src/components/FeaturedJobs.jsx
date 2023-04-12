@@ -27,7 +27,7 @@ const FeaturedJobs = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="mt-8 flex flex-wrap gap-6 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-8 place-content-center">
         {featuresDatas.slice(0, numToShow).map((fj) => (
           <FeaturedJobsDetails
             key={fj.id}
@@ -49,6 +49,5 @@ const FeaturedJobs = () => {
     </section>
   );
 };
-
 
 export default FeaturedJobs;

@@ -4,25 +4,25 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppliedJobs from "./components/AppliedJobs";
 import Statistics from "./components/Statistics";
-import Blog from "./components/Blog";
-import Home from "./components/Home";
-import Main from "./components/Main";
 import ErrorPage from "./components/ErrorPage";
 import JobDetails from "./components/JobDetails";
+import Blog from "./components/Blog";
+import Main from "./components/Main";
+import Home from "./components/Home";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <Main/>,
     errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Home/>,
         loader: () => fetch("/featured-jobs.json"),
       },
       {
         path: "/jobdetails/:id",
-        element: <JobDetails/>,
+        element: <JobDetails />,
         loader: ({ params }) =>
           fetch("/featured-jobs.json").then((res) => res.json()),
       },

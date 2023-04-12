@@ -17,7 +17,7 @@ const JobCategory = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="flex flex-wrap justify-center items-center gap-6 rounded-lg mt-8 mb-32">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-6 rounded-lg mt-8 mb-32">
         {jobData.map((data) => (
           <JobCategoryDetails key={data.id} data={data} className="w-full" />
         ))}

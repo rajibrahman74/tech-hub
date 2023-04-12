@@ -3,7 +3,7 @@ import React from "react";
 const JobCategoryDetails = ({ data }) => {
   const { category_logo, category_name, jobs_available } = data;
   return (
-    <div className="liner-gradient h-[230px] w-[294px] rounded-lg py-10 pl-10 flex flex-col gap-8">
+    <div className="liner-gradient h-[230px] w-[270px] rounded-lg py-10 pl-10 flex flex-col gap-8">
       <style>
         {`.liner-gradient {
           background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);

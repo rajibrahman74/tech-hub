@@ -15,7 +15,7 @@ const FeaturedJobsDetails = ({ fj, handleViewDetails }) => {
     salary,
   } = fj;
   return (
-    <div className="w-[100%] md:w-[612px] rounded-lg border border-gray-300 mx-auto py-10 pl-10 relative">
+    <div className="md:w-[550px] rounded-lg border border-gray-300 mx-auto py-10 pl-10 relative mt-14">
       <img className="w-40 mb-8" src={company_logo} alt="" />
       <h3 className="text-[#474747] text-2xl font-bold pb-2">{job_title}</h3>
       <p className="text-[#757575] font-semibold text-xl">{company_name}</p>
